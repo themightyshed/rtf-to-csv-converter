@@ -4,8 +4,9 @@
   "description": "",
   "scripts": {
     "start": "parcel serve ./src/index.html",
-    "build": "parcel build ./src/index.html",
-    "predeploy": "npm run build",
+    "clean": "rimraf dist",
+    "build": "parcel build ./src/index.html --public-url ./",
+    "predeploy": "npm run clean && npm run build",
     "deploy": "gh-pages -d dist"
   },
   "author": "",
@@ -24,6 +25,7 @@
     "gh-pages": "^5.0.0",
     "parcel": "^2.8.3",
     "process": "^0.11.10",
+    "rimraf": "^4.4.0",
     "string_decoder": "^1.3.0",
     "util": "^0.12.5"
   }
