@@ -34,6 +34,10 @@ main {
     font-weight: 500;
 }
 
+#rtf-file {
+    display: none;
+}
+
 #drop-zone {
     border: 2px dashed #ccc;
     padding: 20px;
