@@ -1,0 +1,48 @@
+{
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "*.css": "css",
+        "*.html": "html",
+        "*.js": "javascript",
+    },
+    "css.validate": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "html.format.wrapAttributes": "force",
+    "html.format.wrapLineLength": 80,
+    "html.format.preserveNewLines": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // "prettier.printWidth": 80,
+    // "prettier.singleQuote": true,
+    // "prettier.trailingComma": "all",
+    // "prettier.arrowParens": "always",
+    // "prettier.jsxSingleQuote": true,
+    // "prettier.bracketSpacing": true,
+    // "prettier.bracketSameLine": false,
+    // "prettier.tabWidth": 2,
+    // "prettier.useTabs": false,
+    // "prettier.semi": true,
+    "editor.codeActionsOnSave": {
+        // "source.fixAll.eslint": true
+    },
+    // "eslint.validate": [
+    //     "javascript",
+    //     "css",
+    //     "html"
+    // ],
+    // "eslint.options": {
+    //     "extensions": [
+    //         ".js",
+    //         ".jsx",
+    //         ".ts",
+    //         ".tsx",
+    //         ".html",
+    //         ".json",
+    //         ".vue"
+    //     ]
+    // },
+    "search.exclude": {
+        "**/node_modules": true
+    }
+}

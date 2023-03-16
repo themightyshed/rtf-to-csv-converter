@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>RTF to CSV Converter</title>
+    <link rel="stylesheet"
+        href="./css/main.css" />
+</head>
+
+<body>
+    <header>
+        <img src="./img/logo.svg"
+            alt="Logo"
+            id="logo">
+    </header>
+    <main>
+        <div id="instructions">
+            <p>Drag and drop your RTF file here to convert it to a CSV format.
+                Then, you can easily import it into 1Password.</p>
+        </div>
+        <div id="drop-zone">
+            <input type="file"
+                id="rtf-file"
+                accept=".rtf"
+                style="display:none;">
+            <label for="rtf-file">Drag and drop your RTF file here</label>
+        </div>
+        <a href="https://support.1password.com/import-1password-com/"
+            target="_blank"
+            rel="noopener noreferrer">Learn more about importing into
+            1Password</a>
+    </main>
+    <script type="module"
+        src="./js/index.js"></script>
+</body>
+
+</html>
